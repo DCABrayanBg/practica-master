@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
-@EntityScan({"com.prueba.commons.proyecto.entity"})
+@EntityScan({"com.practica.master","com.prueba.commons.proyecto.entity"})
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 public class AppPracticaMasterApplication {
 

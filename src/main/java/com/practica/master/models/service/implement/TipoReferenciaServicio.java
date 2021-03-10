@@ -1,7 +1,7 @@
-package com.practica.master.model;
+package com.practica.master.models.service.implement;
 
-import com.prueba.commons.proyecto.entity.Fondo;
-import com.prueba.commons.proyecto.entity.TipoReferencia;
+import com.prueba.commons.proyecto.models.entity.Fondo;
+import com.prueba.commons.proyecto.models.entity.TipoReferencia;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
